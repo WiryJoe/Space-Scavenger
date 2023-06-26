@@ -10,6 +10,12 @@
 *.wav filter=lfs diff=lfs merge=lfs -text
 *.xcf filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
+*.ucas filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.pdb filter=lfs diff=lfs merge=lfs -text
 # Anything in `/RawContent` dir.
 /RawContent/**/* filter=lfs diff=lfs merge=lfs -text
-[200~C:/Users/rhyde/OneDrive/Desktop/Unreal[[:space:]]Projects/Space_Scavenger/Space-Scavenger~ filter=lfs diff=lfs merge=lfs -text
+"C:/Users/rhyde/OneDrive/Desktop/Unreal Projects/Space_Scavenger/Space-Scavenger" filter=lfs diff=lfs merge=lfs -text
+"C:/Users/rhyde/OneDrive/Desktop/Unreal Projects/Space_Scavenger/Space-Scavenger/BuildFolder/*" filter=lfs diff=lfs merge=lfs -text
+C:/Users/rhyde/OneDrive/Desktop/Unreal[[:space:]]Projects/Space_Scavenger/Space-Scavenger/BuildFolder/* filter=lfs diff=lfs merge=lfs -text
+*.ucas filter=lfs diff=lfs merge=lfs -text
